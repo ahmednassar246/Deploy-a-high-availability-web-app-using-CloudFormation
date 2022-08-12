@@ -72,7 +72,6 @@ Resources:
           cd /var/www/html
           echo "Udacity Demo Web Server Up and Running!" > index.html
       ImageId: ami-0729e439b6769d6ab
-      KeyName: private-server
       SecurityGroups:
       - Ref: AppServerSecGroup
       InstanceType: t2.medium
